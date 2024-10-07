@@ -1,0 +1,477 @@
+
+/* 노토산스 폰트 지정 */
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+body, h1, h2, h3, h4, h5, h6, input, textarea, select {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    color: black;
+}
+
+li {list-style: none;}
+
+img {border:0px;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1920px;
+
+}
+
+.top-header-nav {
+    max-width: 1920px;
+    padding:0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+}
+
+
+.header-nav {
+    max-width: 1920px;
+    padding:0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.menu-List {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.menu-List li{
+    padding:0 9px;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.gnb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.gnb li {
+    padding:0px 14px;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.gnb li a:hover{
+    text-decoration: underline;
+}
+
+.mainVisaulText{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.mainVisaulText h3{
+    display: block;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 4.0em;
+    font-weight: 900;
+}
+
+
+
+.mainVisaul02{
+    width: 100%;
+    position: relative;
+
+}
+
+.mainVisaul02::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.mainVisaul02 .mainVisaulText2{
+    max-width: 1920px;
+    padding:0 48px;
+    /* 
+    border: 4px solid cyan;
+    */
+    position: absolute;
+    bottom:30px;
+    left:0px;
+}
+
+.subTitle{
+    font-size: 1.0em;
+    font-weight: 600;
+    display: block;
+    margin-top: 2.0em;
+    margin-bottom: 0.3em;
+}
+
+.conText{
+    font-size: 1.0em;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+button{
+    display:inline-block;
+    background-color: black;
+    border:none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    font-size: 1.0em;
+    margin-top: 0.8em;
+    margin-bottom: 2.0em;
+    
+}
+
+
+.mainVisaulText2 h3{
+    color:white;
+    display: block;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 4.0em;
+    font-weight: 900;
+}
+
+.mainVisaulText2 p{
+    color:white;
+    font-size: 1.0em;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+.mainVisaulText2 button{
+    display:inline-block;
+    background-color: white;
+    border:none;
+    color:black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    font-size: 1.0em;
+    margin-top: 2.0em;
+    margin-bottom: 2.0em;
+}
+
+
+
+.mainProducts {
+    max-width: 1920px;
+    padding:0 48px;
+}
+
+.mainProducts h2{
+    display: block;
+    margin-top: 2.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+.mainProduct-List {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.mainProduct-List li{
+    padding:0px 6px;
+    width:100%;
+    position: relative;
+}
+
+.mainProduct-List li::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mainProduct-List-Text{
+    padding:0 48px;
+    /* 
+    border: 4px solid cyan;
+    */
+    position: absolute;
+    bottom:30px;
+    left:0px;
+}
+
+
+
+.mainProduct-List-Text button{
+    display:inline-block;
+    background-color: white;
+    border:none;
+    color:black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    font-size: 1.0em;
+    margin-top: 1.6em;
+    margin-bottom: 2.0em;
+}
+
+
+
+.mainProduct-List-Text h4{
+    color:white;
+    display: block;
+    margin-top: 2.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+
+.item-thum {
+    width:100%;
+
+}
+
+.mainProducts02 h2{
+    max-width: 1920px;
+    padding:0 48px;
+    display: block;
+    margin-top: 2.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+.mainProducts02-List {
+    width: 100%;
+    margin-bottom: 6.0em;
+    padding: 0;
+    max-width: 1920px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.mainProducts02-List li{
+    padding:0px 10px 0px 0px;
+    width:100%;
+
+}
+
+.mainProduct-List02-Text h5{
+    color:rgb(0, 0, 0);
+    display: block;
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+
+.bottom-wrap {
+    max-width: 1920px;
+    margin:0 48px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.4em;
+    padding-bottom: 2.0em;
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+.bottom-wrap ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.bottom-wrap ul > li {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+
+.bottom-wrap li {
+    padding: 20px 100px;
+
+}
+
+
+.bottom-wrap ul li ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0;
+    margin: 0;
+
+}
+
+.bottom-wrap > ul > li > ul > li{
+    padding: 10px 0px;
+    font-size: 0.7em;
+    font-weight: 400;
+    color: gray;
+    
+}
+
+
+
+
+.bottom-wrap02 {
+    max-width: 1920px;
+    margin:0 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3.8em;
+    padding-bottom: 3.8em;
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+.bottom-wrap02 ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 30px;
+
+}
+
+.bottom-wrap02 ul > li {
+
+    font-weight: 500;
+}
+
+
+.bottom-wrap02 li {
+    padding: 20px 300px 0px 0px;
+
+}
+
+.bottom-wrap02 .rightMenu {
+    padding:0px;
+}
+
+.rightMenu li {
+    padding: 20px 0px;
+    color: gray;
+}
+
+.bottom-wrap02 ul li ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0;
+    margin: 0;
+
+}
+
+.bottom-wrap02 > ul > li > ul > li{
+    padding: 10px 0px;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: gray;
+    
+}
+
+
+
+ul .footerList{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+.footerList li {
+    padding: 0px 20px 0px 0px;
+    color: gray;
+    font-weight:400;
+    font-size: 0.9em;
+}
+
+
+.footerInfo {
+    max-width: 1920px;
+    margin:0 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+.footerInfo ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 30px;
+
+}
+
+.footerInfo li {
+    width: 50%;
+    padding: 0px 20px 0px 0px;
+    color: gray;
+    font-weight:400;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+}
